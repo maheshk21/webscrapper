@@ -5,7 +5,7 @@ import requests
 import lxml.html as lh
 
 def nyscrapper():
-	url = str(raw_input("Enter the NY Times link :\t"))
+	url = str(raw_input("Enter the NY Times link :\t")) # visit the new york website and paste the corresponding link for better results.
 	response = requests.get(url)
 	document = lh.fromstring(response.content)
 	text = document.xpath('//p[@itemprop="articleBody"]')
