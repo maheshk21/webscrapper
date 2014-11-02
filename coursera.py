@@ -1,4 +1,4 @@
-# Web Scrapping program to access all the courses available in Coursera	
+# Web Scrapping program to access all the courses and the universities available in Coursera	
 # Author : Mahesh Kumar K
 
 import requests
